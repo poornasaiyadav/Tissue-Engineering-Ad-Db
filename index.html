@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tissue Engineering–Based Alzheimer's Gene Database</title>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/hero_tissue_engineering.jpg" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="main-header">
+    <div class="header-content">
+      <div class="logo-section">
+        <i class="fas fa-dna logo-icon"></i>
+        <div class="title-section">
+          <h1>Tissue Engineering–Based Alzheimer's Gene Database</h1>
+          <p class="subtitle">Integrating Genomic Data with Regenerative Medicine Strategies</p>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="#home" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+        <a href="#database" class="nav-link"><i class="fas fa-database"></i> Database</a>
+        <a href="#tools" class="nav-link"><i class="fas fa-tools"></i> Tools</a>
+        <a href="#about" class="nav-link"><i class="fas fa-info-circle"></i> About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h2>Advancing Alzheimer's Research Through Tissue Engineering</h2>
+      <p>A comprehensive database connecting Alzheimer's disease genes with tissue engineering interventions, scaffold strategies, and regenerative outcomes.</p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">100+</span>
+          <span class="stat-label">Gene Entries</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">14</span>
+          <span class="stat-label">Data Fields</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">3</span>
+          <span class="stat-label">TE Categories</span>
+        </div>
+      </div>
+      <a href="#database" class="cta-button"><i class="fas fa-search"></i> Explore Database</a>
+    </div>
+  </section>
+
+  <!-- Main Content Container -->
+  <main class="main-container" id="database">
+    <!-- Left Column: Tools Menu -->
+    <aside class="left-column">
+      <nav class="tools-menu">
+        <h2><i class="fas fa-toolbox"></i> Bioinformatics Tools</h2>
+        <ul>
+          <li><button id="blastMenuBtn"><i class="fas fa-search"></i> BLAST</button></li>
+          <li><button id="keggMenuBtn"><i class="fas fa-project-diagram"></i> KEGG</button></li>
+          <li><button id="primerMenuBtn"><i class="fas fa-dna"></i> Primer Design</button></li>
+          <li><button id="translateMenuBtn"><i class="fas fa-exchange-alt"></i> Transcription & Translation</button></li>
+          <li><button id="complementMenuBtn"><i class="fas fa-sync-alt"></i> Complement Tool</button></li>
+          <li><button id="uniprotMenuBtn"><i class="fas fa-database"></i> UniProt</button></li>
+          <li><button id="chemblMenuBtn"><i class="fas fa-flask"></i> ChEMBL</button></li>
+        </ul>
+      </nav>
+
+      <!-- Quick Stats Panel -->
+      <div class="stats-panel">
+        <h3><i class="fas fa-chart-pie"></i> Database Overview</h3>
+        <div class="stat-row">
+          <span class="stat-label">Neural TE</span>
+          <div class="progress-bar">
+            <div class="progress-fill neural" style="width: 55%"></div>
+          </div>
+          <span class="stat-value">55%</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Neuroimmune</span>
+          <div class="progress-bar">
+            <div class="progress-fill neuroimmune" style="width: 30%"></div>
+          </div>
+          <span class="stat-value">30%</span>
+        </div>
+        <div class="stat-row">
+          <span class="stat-label">Neurovascular</span>
+          <div class="progress-bar">
+            <div class="progress-fill neurovascular" style="width: 15%"></div>
+          </div>
+          <span class="stat-value">15%</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Center Column: Info + Search -->
+    <section class="center-column">
+      <!-- Information Card -->
+      <div class="info-card">
+        <h2><i class="fas fa-brain"></i> Tissue Engineering for Alzheimer's Disease</h2>
+        <p>
+          Alzheimer's disease (AD) is a progressive neurodegenerative disorder characterized by amyloid-β accumulation, 
+          tau hyperphosphorylation, and neuronal loss. Tissue engineering approaches offer promising therapeutic strategies 
+          through biomaterial scaffolds, stem cell transplantation, and targeted drug delivery systems.
+        </p>
+        <p>
+          This database integrates genomic information with tissue engineering interventions, providing researchers with 
+          comprehensive data on gene variants, disease mechanisms, scaffold strategies, cell types, growth factors, 
+          biomaterials, and regeneration outcomes.
+        </p>
+        <div class="key-features">
+          <div class="feature-tag"><i class="fas fa-check-circle"></i> Scaffold Strategies</div>
+          <div class="feature-tag"><i class="fas fa-check-circle"></i> Cell-Based Therapies</div>
+          <div class="feature-tag"><i class="fas fa-check-circle"></i> Growth Factor Delivery</div>
+          <div class="feature-tag"><i class="fas fa-check-circle"></i> Biomaterial Selection</div>
+        </div>
+        <div class="more-info-link">
+          <a href="https://www.nia.nih.gov/health/alzheimers-disease" target="_blank">
+            <i class="fas fa-external-link-alt"></i> Learn more from NIH National Institute on Aging
+          </a>
+        </div>
+      </div>
+
+      <!-- Search Section -->
+      <div class="search-section">
+        <h3><i class="fas fa-search"></i> Search Database</h3>
+        <div class="search-box">
+          <input type="text" id="geneSearch" placeholder="Search by Gene Name, Variant, Function, or TE Relevance..." />
+          <button id="searchButton"><i class="fas fa-search"></i> Search</button>
+        </div>
+        <div class="search-filters">
+          <span class="filter-label">Quick Filters:</span>
+          <button class="filter-chip" data-filter="Neural tissue engineering">Neural TE</button>
+          <button class="filter-chip" data-filter="Neuroimmune engineering">Neuroimmune</button>
+          <button class="filter-chip" data-filter="Neurovascular engineering">Neurovascular</button>
+          <button class="filter-chip" data-filter="Metabolic tissue engineering">Metabolic TE</button>
+        </div>
+      </div>
+
+      <!-- Results Section -->
+      <div id="resultsContainer" class="results-container">
+        <div class="results-header">
+          <h3><i class="fas fa-table"></i> Search Results</h3>
+          <div class="results-actions">
+            <button id="exportBtn" class="action-btn"><i class="fas fa-download"></i> Export</button>
+            <button id="clearBtn" class="action-btn secondary"><i class="fas fa-times"></i> Clear</button>
+          </div>
+        </div>
+        <div id="dynamicContent" class="dynamic-content">
+          <div class="empty-state">
+            <i class="fas fa-database"></i>
+            <p>Enter a search term to explore the database</p>
+            <span class="hint">Try searching for "APOE", "APP", or "Neural tissue engineering"</span>
+          </div>
+        </div>
+        <div id="pagination" class="pagination"></div>
+      </div>
+
+      <!-- Dynamic Tool Content Area -->
+      <div id="toolContent" class="tool-content" style="display: none;">
+        <div class="tool-header">
+          <h3 id="toolTitle">Tool</h3>
+          <button id="closeToolBtn" class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <div id="toolBody" class="tool-body"></div>
+      </div>
+    </section>
+
+    <!-- Right Column: Images & Resources -->
+    <aside class="right-column">
+      <div class="image-gallery">
+        <h3><i class="fas fa-images"></i> Visual Resources</h3>
+        <div class="image-card">
+          <img src="images/hero_tissue_engineering.jpg" alt="Tissue Engineering Scaffold" />
+          <div class="image-caption">3D Biomaterial Scaffold Structure</div>
+        </div>
+        <div class="image-card">
+          <img src="images/brain_scaffold.jpg" alt="Brain Neural Network" />
+          <div class="image-caption">Neural Network Integration</div>
+        </div>
+        <div class="image-card">
+          <img src="images/neural_cells_scaffold.jpg" alt="Neural Cells on Scaffold" />
+          <div class="image-caption">Neural Stem Cells on Scaffold</div>
+        </div>
+        <div class="image-card">
+          <img src="images/ad_mechanisms.jpg" alt="AD Mechanisms" />
+          <div class="image-caption">AD Mechanisms & TE Solutions</div>
+        </div>
+      </div>
+
+      <!-- Related Resources -->
+      <div class="resources-panel">
+        <h3><i class="fas fa-link"></i> Related Resources</h3>
+        <ul class="resource-list">
+          <li><a href="https://www.alz.org/" target="_blank"><i class="fas fa-external-link-alt"></i> Alzheimer's Association</a></li>
+          <li><a href="https://www.ncbi.nlm.nih.gov/gene" target="_blank"><i class="fas fa-external-link-alt"></i> NCBI Gene Database</a></li>
+          <li><a href="https://www.uniprot.org/" target="_blank"><i class="fas fa-external-link-alt"></i> UniProt Protein DB</a></li>
+          <li><a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank"><i class="fas fa-external-link-alt"></i> PubMed Literature</a></li>
+        </ul>
+      </div>
+    </aside>
+  </main>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="about-content">
+      <h2><i class="fas fa-info-circle"></i> About This Database</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <i class="fas fa-database"></i>
+          <h3>Comprehensive Data</h3>
+          <p>100+ gene entries with detailed information on variants, functions, disease mechanisms, and tissue engineering applications.</p>
+        </div>
+        <div class="about-card">
+          <i class="fas fa-microscope"></i>
+          <h3>TE Integration</h3>
+          <p>Connects genomic data with scaffold strategies, cell types, growth factors, and biomaterial suggestions.</p>
+        </div>
+        <div class="about-card">
+          <i class="fas fa-flask"></i>
+          <h3>Research Focus</h3>
+          <p>Supports researchers in developing targeted tissue engineering interventions for Alzheimer's disease.</p>
+        </div>
+        <div class="about-card">
+          <i class="fas fa-globe"></i>
+          <h3>Open Access</h3>
+          <p>Freely accessible resource for the scientific community to advance Alzheimer's research.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4><i class="fas fa-dna"></i> TE-Alzheimer's DB</h4>
+        <p>Tissue Engineering–Based Alzheimer's Gene Database</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#database">Database</a></li>
+          <li><a href="#tools">Tools</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="https://www.nia.nih.gov/" target="_blank">NIH NIA</a></li>
+          <li><a href="https://www.alz.org/" target="_blank">Alzheimer's Association</a></li>
+          <li><a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Tissue Engineering–Based Alzheimer's Gene Database. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
